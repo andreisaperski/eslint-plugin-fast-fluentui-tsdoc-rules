@@ -6,6 +6,6 @@ module.exports = {
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
   collectCoverage: true,
   moduleNameMapper: {
-    "^eslint-redirect/(.*)": "<rootDir>/src/eslint-redirect/4.22/$1",
+    "^eslint-redirect/(.*)": "<rootDir>/src/eslint-redirect/5.x/$1",
   },
 };

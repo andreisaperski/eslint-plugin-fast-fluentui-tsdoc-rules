@@ -15,11 +15,11 @@
     "baseUrl": ".",
     "paths": {
       "eslint-redirect*": [
-        "src/eslint-redirect/4.22",
-        "src/eslint-redirect/4.22/*"
+        "src/eslint-redirect/5.x",
+        "src/eslint-redirect/5.x/*"
       ]
     }
   },
   "include": ["src/rules/**/*", "src/*"],
-  "exclude": ["node_modules", "tests", "src/eslint-redirect/5.x"]
+  "exclude": ["node_modules", "tests", "src/eslint-redirect/4.22"]
 }

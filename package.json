@@ -1,6 +1,6 @@
 {
   "name": "@asaperski/eslint-plugin-fast-fluentui-tsdoc-rules",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "eslint rules for TSDoc comments validation in FAST/Fluent UI",
   "author": "Andrei Saperski <andrei@saperski.net>",
   "license": "MIT",
@@ -37,14 +37,12 @@
     "typescript": "4.7.4"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">= 4.22 < 5.0.0",
-    "@typescript-eslint/experimental-utils": ">= 4.22 < 5.0.0",
-    "@typescript-eslint/parser": ">= 4.22 < 5.0.0",
+    "@typescript-eslint/eslint-plugin": ">= 5.0.0",
+    "@typescript-eslint/parser": ">= 5.0.0",
     "eslint": "^6.0.0 || ^7.0.0 || ^8.0.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "@typescript-eslint/experimental-utils": "^4.22.0",
-    "@typescript-eslint/parser": "^4.22.0"
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1"
   }
 }

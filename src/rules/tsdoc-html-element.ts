@@ -27,7 +27,7 @@ export const rule = createEslintRule<Options, MessageIds>({
       description:
         "TSDoc comment should specify HTML Element name in description of @remarks tag.",
       recommended: "warn",
-      category: "Stylistic Issues",
+      // category: "Stylistic Issues",
     },
     messages: {
       missingTsDocComment:
